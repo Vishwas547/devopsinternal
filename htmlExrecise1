@@ -5,10 +5,11 @@
 
 	<body>
 		<form>
-			Name: <input>
-			password: <input>
+			Name: <input type="text" placeholder="Enter Name" required>
 			<br>
-			<button><Submit</button>
+			password: <input type="password" placeholder="Enter Password" required>
+			<br>
+			<button>Submit</button>
 		</form>
 	</body>
 </html>
