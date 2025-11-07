@@ -4,7 +4,10 @@
 	</head>
 
 	<body>
-		Name: <input>
-		password: <input>
+		<form>
+			Name: <input>
+			password: <input>
+			<button><Submit</button>
+		</form>
 	</body>
 </html>
