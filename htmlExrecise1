@@ -9,7 +9,7 @@
 			<br><br>
 			password: <input type="password" placeholder="Enter Password" required>
 			<br><br>
-			<button>Submit</button>
+			<button type="submit">Submit</button>
 		</form>
 	</body>
 </html>
