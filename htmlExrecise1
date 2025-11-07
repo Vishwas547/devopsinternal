@@ -8,7 +8,7 @@
 			Name: <input type="text" placeholder="Enter Name" required>
 			<br>
 			password: <input type="password" placeholder="Enter Password" required>
-			<br>
+			<br><br>
 			<button>Submit</button>
 		</form>
 	</body>
