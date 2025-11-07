@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title> IntoGit</title>
+	</head>
+
+	<body>
+		Name: <input>
+		password: <input>
+	</body>
+</html>
