@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+
+<body>
+
+<style>
+    body
+    {
+        display: flex;
+        justify-content: center; /* horizontal center */
+        align-items: center;     /* vertical center */
+        flex-direction: column;  /* optional: items stacked in column */
+        height: 100vh;           /* to center in full page */
+    }
+    
+    form
+    {
+        border: 2px solid black;
+        border-radius: 2px;
+        padding:5px;
+    }
+    
+</style>
+
+<h2>Event Registration Form</h2>
+
+<form onsubmit="return validateForm()">
+    Name:<br>
+    <input type="text" id="name"><br><br>
+
+    Email:<br>
+    <input type="text" id="email"><br><br>
+
+    Phone:<br>
+    <input type="text" id="phone"><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<script>
+function validateForm() {
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+
+    // Simple checks using IF
+    if (name === "") {
+        alert("Please enter your name");
+        return false;
+    }
+
+    if (email === "") {
+        alert("Please enter your email");
+        return false;
+    }
+
+    if (phone === "") {
+        alert("Please enter your phone number");
+        return false;
+    }
+
+    alert("Registration Successful!");
+    return true; // allow form to submit
+}
+</script>
+
+</body>
+</html>
